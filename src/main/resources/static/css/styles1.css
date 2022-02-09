@@ -1,0 +1,83 @@
+.logo{
+    font-family: 'Dancing Script', cursive;
+    text-transform:capitalize;
+    font-size:30px;
+    color:#FFD306;
+}
+.navbg{
+    width: 100%;
+    height:100px;
+    margin-bottom:20px;
+    background-color:black;
+}
+
+.manuallyclose{
+	padding:2px;
+}
+
+
+.fa-heart{
+	color: #ff4d4d;
+}
+.fa-chalkboard-teacher{
+	color: red;
+}
+
+.fa-trash-alt{
+	color :gray;
+
+
+}
+
+.faaas{
+		width:100px;
+	height:100px;
+}
+
+.fa-dumpster{
+	color:black;
+}
+.fa-capsules
+{
+	color:black;
+}
+.fa-dumbbell{
+	color:black;
+}
+.fa-utensils{
+	color:black;
+}
+.card-text{
+	
+	font-size:20px;
+}
+.fa-coins{
+	color:black;
+}
+
+/* .row { */
+/*     display: -ms-flexbox; */
+/*     display: flex; */
+/*     -ms-flex-wrap: wrap; */
+/*     flex-wrap: wrap; */
+/*     margin-right: -15px; */
+/*     padding-left:300px; */
+/* } */
+
+
+/* .container, .container-lg, .container-md, .container-sm { */
+/*     max-width: 960px; */
+/* } */
+/* .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl { */
+/*     width: 100%; */
+/*     padding-right: 15px; */
+/*     padding-left: 5px; */
+/*     margin-right: auto; */
+/*     margin-left: auto; */
+/* } */
+
+/* @media (min-width: 768px) { */
+/*   section { */
+/*     padding: 9rem 0; */
+/*   } */
+/* } */

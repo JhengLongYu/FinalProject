@@ -1,0 +1,31 @@
+.fa-check{
+	color:		#8CEA00;
+	font-size:20px;
+}
+.fa-check:hover{
+	color:		#00DB00;
+	font-size:20px;
+}
+.fa-trash-alt{
+	color:#FF7575;
+	font-size:20px;
+}
+.fa-trash-alt:hover{
+	color:	#FF0000;
+}
+
+.fa-user-plus{
+	color:#FFAD86;
+}
+.fa-user-plus:hover{
+	color:#FF5809;
+}
+.fa-plus{
+	color:#FFAD86;
+}
+.fa-plus:hover{
+	color:#FF5809;
+}
+.fa-table{
+	color:#555;
+}

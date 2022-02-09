@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto+Sans", Arial, Helvetica, sans-serif;
+}
+
+.bggray {
+  background-color: #e0e0e0;
+  width: 100vw;
+  height: 100vh;
+  padding: 70px 0;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  color: #ffd306;
+  text-shadow: 0 0 6px #333;
+}
+
+/* #ffd306  */
+.loginBox {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  height: 380px;
+  border-radius: 10px;
+  margin: 0 auto;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #666;
+  border-bottom: 1px solid #dfdfdf;
+  width: 100%;
+  max-width: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.label {
+  font-size: 16px;
+  color: #495057;
+  letter-spacing: 1px;
+}
+
+.input {
+  display: block;
+  width: 300px;
+  height: 45px;
+  border: 1px solid #dfdfdf;
+  margin: 5px 0 15px 0;
+  font-size: 16px;
+  color: #495057;
+  padding-left: 15px;
+}
+
+.loginBtn {
+  font-size: 16px;
+  background-color: #ffd306;
+  border: none;
+  padding: 7px 25px;
+  color: #111;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 15px;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.loginBtn:hover {
+  opacity: 1;
+}
+
+.resultMsg {
+  font-size: 15px;
+  font-weight: bold;
+  width: fit-content;
+  border-bottom: 2px solid #ffd500;
+  text-align: center;
+}

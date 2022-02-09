@@ -1,0 +1,97 @@
+.logo {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: rgb(255, 209, 5);
+  padding: 1.5rem 0 0 2rem;
+}
+
+.bgW {
+  background-color: white;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+#bgImg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/registerBackground.jpg");
+  position: absolute;
+  top: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+.tittle {
+  text-align: center;
+  font-weight: 400;
+}
+
+hr {
+  border: 1px solid #c0c0c0;
+  margin-bottom: 25px;
+}
+
+table {
+  margin: 0;
+  width: 100%;
+}
+
+tr {
+  height: 3rem;
+}
+
+th {
+  text-align: center;
+  background-color: #ffd900;
+}
+
+td {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.edit_Btn .btn {
+  width: 100px;
+  font-weight: 400;
+  color: black;
+  transition: 0.3s;
+}
+
+.edit_Btn .delet {
+  background-color: rgb(255, 91, 91);
+  opacity: 0.8;
+}
+
+.edit_Btn .edit {
+  background-color: rgb(182, 182, 182);
+  opacity: 0.8;
+}
+
+.edit_Btn .delet:hover,
+.edit_Btn .edit:hover {
+  opacity: 1;
+}
+
+.edit_Btn {
+  text-align: center;
+}
+
+.deletBtn:hover {
+  opacity: 1;
+}
+
+.member_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+}

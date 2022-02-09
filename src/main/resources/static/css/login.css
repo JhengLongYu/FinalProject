@@ -1,0 +1,84 @@
+.form1 {
+height:120vh;
+  background-image: url("../images/registerBackground.jpg");
+  padding-top: 200px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+.title {
+  text-align: center;
+}
+
+p.title {
+  color: #696969;
+}
+
+.con {
+  margin:auto;
+  padding: 3rem;
+  width: 50%;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #faf7e7;
+  border-radius: 8px;
+}
+
+.divsex {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #faf7e7;
+  border-radius: 8px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+  border-radius: 8px;
+}
+
+hr {
+  border: 1px solid #c0c0c0;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #ffd900;
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+p.privacy {
+  text-align: center;
+}
+
+a.privacy {
+  color: rgb(255, 174, 0);
+}

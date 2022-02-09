@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Noto+Sans", Arial, Helvetica, sans-serif;
+}
+
+.mbContent {
+	background-color: #fff;
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
+	border-radius: 10px;
+	padding: 30px 25px;
+}
+
+.Content {
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tittle {
+	color: #666;
+	font-size: 22px;
+	font-weight: 200;
+	letter-spacing: 3px;
+	text-align: center;
+	width: 100%;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.div__photo {
+	max-width: 200px;
+	margin-bottom: 25px;
+}
+
+.image {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.inputBox {
+	max-width: 570px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	padding-right:70px;
+	position:relative;
+}
+
+.inputBox>label {
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #333;
+}
+
+.input {
+	max-width: 400px;
+	width: 100%;
+	height: 40px;
+	background-color: #faf7e7;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #777;
+	padding-left: 15px;
+}
+
+.input:disabled {
+	background-color: #eee;
+}
+
+.input[type="file"] {
+	padding: 6.5px 12px;
+}
+
+.inputGender {
+	padding: 9.5px 15px;
+}
+
+.sureEditBtn {
+	padding: 7px 40px;
+	border: none;
+	background-color: #ffd500;
+	color: #000;
+	font-size: 16px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	transition: 0.2s;
+	opacity: 0.75;
+	margin-top: 20px;
+}
+
+.sureEditBtn:hover {
+	opacity: 1;
+}
+
+.checkTextFalse {
+	line-height:40px;
+	position:absolute;
+	top:0;
+	left:510px;
+	font-size: 10px;
+	font-weight: bold;
+	width: fit-content;
+	color: red;
+}
+/* .resultMsg { */
+/*   font-size: 15px; */
+/*   font-weight: bold; */
+/*   width: fit-content; */
+/*   border-bottom: 2px solid #ffd500; */
+/*   text-align: center; */
+/* } */
+@media ( max-width : 810px) {
+	.inputBox {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 20px;
+	}
+	.input {
+		max-width: 100%;
+	}
+	.checkTextFalse{
+		position:static;
+	}
+}
